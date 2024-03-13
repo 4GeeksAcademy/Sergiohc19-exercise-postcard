@@ -1,0 +1,68 @@
+/* color del fondo de la página */
+body {
+	background: black;
+}
+/* color de fondo del div postcard, tamaño y margen */
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+
+.postcard-header {
+	padding: 8px;
+	display: flex;
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+
+.postcard-header h1 {
+	width: 340px;
+	margin: 0;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: lighter;
+}
+
+.postcard-body {
+	display: flex;
+	margin-left: 2px;
+	margin-right: 3px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: lighter;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left,
+.body-right {
+	padding: 5px;
+}
+
+input {
+	border-bottom: grey;
+	border: none;
+	border-bottom-style: groove;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	text-align: center;
+	background-color: rgba(0, 0, 0, 0.253);
+	padding: 5px;
+	cursor: pointer;
+	border: none;
+	border-bottom: outset 1px white !important;
+}
+
+button:active {
+	border-style: outset;
+}
